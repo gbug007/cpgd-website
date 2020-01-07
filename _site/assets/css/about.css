@@ -1,0 +1,27 @@
+.hello { color: blue; }
+
+.hello .woo { color: pink; padding-top: 45vh; text-align: center; font-size: 150px; }
+
+@font-face { font-family: "Axia"; src: url("../fonts/AxiaBold.otf"); }
+
+@font-face { font-family: "AxiaBlack"; src: url("../fonts/AxiaBlack.otf"); }
+
+body { margin: 0px; }
+
+.about-section-container { padding: 80px 50px; }
+
+.about-section { max-width: 850px; height: 440px; margin: 0 auto; }
+
+.about-section .about-img { width: 350px; }
+
+@media only screen and (max-width: 800px) { .about-section .about-img { width: 100%; } }
+
+.about-section .about-description { float: right; width: 45%; }
+
+@media only screen and (max-width: 800px) { .about-section .about-description { float: left; width: 100%; padding-top: 20px; } }
+
+.about-section h1 { font-size: 40px; color: #009081; font-family: "AxiaBlack"; margin-top: 0px; }
+
+.about-section h2 { font-size: 18px; color: #0e141a; font-family: "AxiaBlack"; }
+
+/*# sourceMappingURL=about.css.map */

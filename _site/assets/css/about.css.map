@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"about.scss",
+		"assets/css/global.scss"
+	],
+	"sourcesContent": [
+		"@import \"global\";\n\n\n.about-section-container {\n   padding: 80px 50px;\n}\n.about-section {\n   max-width: 850px;\n   height: 440px;\n\n   margin: 0 auto;\n\n   .about-img {\n      @media #{$about-size} {\n         width: 100%;\n      }\n      width: 350px;\n   }\n\n   .about-description {\n      float:right;\n      width: 45%;\n      @media #{$about-size} {\n         float: left;\n         width: 100%;\n         padding-top: 20px;\n      }\n   }\n\n   h1 {\n      font-size: 40px;\n      color: $green;\n      font-family: \"AxiaBlack\";\n      margin-top: 0px;\n   }\n\n   h2 {\n      font-size: 18px;\n      color: $black;\n      font-family: \"AxiaBlack\";\n   }\n}",
+		"\r\n$small: \"only screen and (min-width : 0px)\";\r\n$medium: \"only screen and (min-width : 450px)\";\r\n$large: \"only screen and (min-width : 1000px)\";\r\n\r\n$about-size: \"only screen and (max-width : 800px)\";\r\n\r\n// Color swatches\r\n\r\n$blue: #007ab0;\r\n$deep-blue: #034877;\r\n$light-blue: #81d5f8;\r\n$mid-blue: #02bdf5;\r\n$green: #009081;\r\n$yellow: #fcd461;\r\n$black: #0e141a;\r\n\r\n.hello {\r\n   color: blue;\r\n   .woo {\r\n      color: pink;\r\n      padding-top: 45vh;\r\n      text-align: center;\r\n      font-size: 150px;\r\n   }\r\n}\r\n\r\n@font-face {\r\n   font-family: \"Axia\";\r\n   src: url(\"../fonts/AxiaBold.otf\");\r\n}\r\n\r\n@font-face {\r\n   font-family: \"AxiaBlack\";\r\n   src: url(\"../fonts/AxiaBlack.otf\");\r\n}\r\n\r\nbody {\r\n   margin: 0px;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACiBA,AAAA,MAAM,CAAC,EACJ,KAAK,EAAE,IAAI,GAOb;;AARD,AAEG,MAFG,CAEH,IAAI,CAAC,EACF,KAAK,EAAE,IAAI,EACX,WAAW,EAAE,IAAI,EACjB,UAAU,EAAE,MAAM,EAClB,SAAS,EAAE,KAAK,GAClB;;AAGJ,UAAU,GACP,WAAW,EAAE,MAAM,EACnB,GAAG,EAAE,4BAA4B;;AAGpC,UAAU,GACP,WAAW,EAAE,WAAW,EACxB,GAAG,EAAE,6BAA6B;;AAGrC,AAAA,IAAI,CAAC,EACF,MAAM,EAAE,GAAG,GACb;;ADpCD,AAAA,wBAAwB,CAAC,EACtB,OAAO,EAAE,SAAS,GACpB;;AACD,AAAA,cAAc,CAAC,EACZ,SAAS,EAAE,KAAK,EAChB,MAAM,EAAE,KAAK,EAEb,MAAM,EAAE,MAAM,GA+BhB;;AAnCD,AAMG,cANW,CAMX,UAAU,CAAC,EAIR,KAAK,EAAE,KAAK,GACd;;AAJE,MAAM,MAAM,MAAM,MAAM,SAAS,EAAG,KAAK,IAP/C,AAMG,cANW,CAMX,UAAU,CAAC,EAEL,KAAK,EAAE,IAAI,GAGhB;;AAXJ,AAaG,cAbW,CAaX,kBAAkB,CAAC,EAChB,KAAK,EAAC,KAAK,EACX,KAAK,EAAE,GAAG,GAMZ;;AALE,MAAM,MAAM,MAAM,MAAM,SAAS,EAAG,KAAK,IAhB/C,AAaG,cAbW,CAaX,kBAAkB,CAAC,EAIb,KAAK,EAAE,IAAI,EACX,KAAK,EAAE,IAAI,EACX,WAAW,EAAE,IAAI,GAEtB;;AArBJ,AAuBG,cAvBW,CAuBX,EAAE,CAAC,EACA,SAAS,EAAE,IAAI,EACf,KAAK,EClBH,OAAO,EDmBT,WAAW,EAAE,WAAW,EACxB,UAAU,EAAE,GAAG,GACjB;;AA5BJ,AA8BG,cA9BW,CA8BX,EAAE,CAAC,EACA,SAAS,EAAE,IAAI,EACf,KAAK,ECvBH,OAAO,EDwBT,WAAW,EAAE,WAAW,GAC1B"
+}

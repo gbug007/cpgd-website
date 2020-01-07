@@ -1,0 +1,51 @@
+.hello { color: blue; }
+
+.hello .woo { color: pink; padding-top: 45vh; text-align: center; font-size: 150px; }
+
+@font-face { font-family: "Axia"; src: url("../fonts/AxiaBold.otf"); }
+
+@font-face { font-family: "AxiaBlack"; src: url("../fonts/AxiaBlack.otf"); }
+
+body { margin: 0px; }
+
+.copy-container { position: absolute; width: 100%; z-index: 3; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; text-align: center; }
+
+.copy-container .reveal { text-align: center; }
+
+.hero-container .sticky-lockup-container { height: 250vh; width: 100%; position: relative; display: flex; flex-direction: column; background-color: #0e141a; }
+
+.hero-container .sticky-lockup-container .sticky-lockup { position: sticky; height: 100vh; top: 0; left: 0; overflow: hidden; z-index: 1; display: flex; flex-direction: column; align-items: center; }
+
+.hero-container .sticky-lockup-container .sticky-lockup .hero-video { vertical-align: baseline; display: inline-block; object-fit: contain; opacity: 0.35; }
+
+.copy-container { padding-top: 25vh; font-size: 106px; }
+
+@media only screen and (min-width: 0px) { .copy-container .hero-logo { max-width: 300px; } }
+
+@media only screen and (min-width: 450px) { .copy-container .hero-logo { max-width: 720px; } }
+
+@media only screen and (min-width: 0px) { .copy-container .logo-large { width: 150px; } }
+
+@media only screen and (min-width: 450px) { .copy-container .logo-large { width: 300px; } }
+
+@media only screen and (min-width: 0px) { .copy-container .brand-title { width: 300px; } }
+
+@media only screen and (min-width: 450px) { .copy-container .brand-title { width: 500px; } }
+
+@media only screen and (min-width: 0px) { .copy-container .header { max-width: 300px; } }
+
+@media only screen and (min-width: 450px) { .copy-container .header { max-width: 750px; } }
+
+.copy-container h1 { padding-top: 35vh; color: #02bdf5; font-family: "AxiaBlack"; }
+
+@media only screen and (min-width: 0px) { .copy-container h1 { font-size: 50px; } }
+
+@media only screen and (min-width: 450px) { .copy-container h1 { font-size: 106px; } }
+
+.copy-container h2 { padding-top: 35vh; color: #02bdf5; font-family: "AxiaBlack"; }
+
+@media only screen and (min-width: 0px) { .copy-container h2 { font-size: 40px; } }
+
+@media only screen and (min-width: 450px) { .copy-container h2 { font-size: 70px; } }
+
+/*# sourceMappingURL=home.css.map */
