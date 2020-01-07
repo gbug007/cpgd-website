@@ -1,0 +1,45 @@
+---
+---
+
+@import "global";
+
+
+.about-section-container {
+   padding: 80px 50px;
+}
+.about-section {
+   max-width: 850px;
+   height: 440px;
+
+   margin: 0 auto;
+
+   .about-img {
+      @media #{$about-size} {
+         width: 100%;
+      }
+      width: 350px;
+   }
+
+   .about-description {
+      float:right;
+      width: 45%;
+      @media #{$about-size} {
+         float: left;
+         width: 100%;
+         padding-top: 20px;
+      }
+   }
+
+   h1 {
+      font-size: 40px;
+      color: $green;
+      font-family: "AxiaBlack";
+      margin-top: 0px;
+   }
+
+   h2 {
+      font-size: 18px;
+      color: $black;
+      font-family: "AxiaBlack";
+   }
+}

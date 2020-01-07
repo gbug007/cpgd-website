@@ -1,0 +1,123 @@
+---
+---
+
+@import "global";
+
+.copy-container {
+   position: absolute;
+   width: 100%;
+   z-index: 3;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   flex-direction: column;
+   -webkit-box-align: center;
+   align-items: center;
+   text-align: center;
+    
+   .reveal {
+      text-align: center;
+   }
+}
+
+
+.hero-container {
+
+   .sticky-lockup-container
+   {
+      height: 250vh;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background-color: $black;
+
+
+      .sticky-lockup {
+         position: sticky;
+         height: 100vh;
+         top: 0;
+         left: 0;
+         overflow: hidden;
+         z-index: 1;
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         .hero-video {
+            vertical-align: baseline;
+            display: inline-block;
+            object-fit: contain;
+            opacity: 0.35;
+         }
+      }
+   }
+}
+
+
+.copy-container {
+   padding-top: 25vh;
+   font-size: 106px;
+
+   .hero-logo {
+      @media #{$small} {
+         max-width: 300px;
+      }
+      @media #{$medium} {
+         max-width: 720px;
+      }
+   }
+
+   .logo-large {
+      @media #{$small} {
+         width: 150px;
+      }
+      @media #{$medium} {
+         width: 300px;
+      }
+   }
+   .brand-title {
+      @media #{$small} {
+         width: 300px;
+      }
+      @media #{$medium} {
+         width: 500px;
+      }
+      
+   }
+
+   .header {
+      @media #{$small} {
+         max-width: 300px;
+      }
+      @media #{$medium} {
+         max-width: 750px;
+      }
+      
+   }
+
+   h1 {
+      @media #{$small} {
+         font-size: 50px;
+      }
+      @media #{$medium} {
+         font-size: 106px;
+      }
+      padding-top: 35vh;
+      color: $mid-blue;
+      font-family: "AxiaBlack";
+   }
+
+   h2 {
+      @media #{$small} {
+         font-size: 40px;
+      }
+      @media #{$medium} {
+         font-size: 70px;
+      }
+      padding-top: 35vh;
+      color: $mid-blue;
+      font-family: "AxiaBlack";
+   }
+}
