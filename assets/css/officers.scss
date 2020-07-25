@@ -1,0 +1,105 @@
+---
+---
+
+@import "global";
+
+.officers-container {
+   .hero {
+      width: 100%;
+      height: 60vh;
+      min-height: 300px;
+      overflow: hidden;
+      background-position: center center;
+      object-fit: contain;
+      display: flex;
+      top:0;
+      left: 0;
+      align-items: center;
+      background-color: $black;
+
+      .black-cover {
+         width: 100%;
+         height: 100%;
+      }
+
+      .hero-img {
+         object-fit: cover;
+         display: flex;
+         width: 100%;
+         height: 100%;
+         opacity: 0.35;
+      }
+
+      .hero-header {
+         text-align: center;
+         vertical-align: middle;
+         margin: 0;
+         align-self: center;
+      }
+
+      
+   }
+
+   
+   h1 {
+      @media #{$small} {
+         font-size: 50px;
+      }
+      @media #{$medium} {
+         font-size: 80px;
+      }
+      @media #{$large} {
+         font-size: 106px;
+      }
+      color: $mid-blue;
+      font-family: "AxiaBlack";
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      
+   }
+
+   h2 {
+      font-size: 25px;
+      color: $green;
+      font-family: "AxiaBlack";
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   h3 {
+      font-size: 18px;
+      color: $black;
+      font-family: "AxiaBlack";
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   .officers {
+      padding: 30px;
+      text-align:center;
+      max-width: 800px;
+      margin: auto;
+
+      .officer-container {
+         padding: 20px;
+         display: inline-block;
+         text-align: center;
+         width: 200px;
+         top: 0;
+         vertical-align: text-top;
+      }
+
+      h2 {
+         text-align: center;
+      }
+      .officer-icon {
+         border-radius: 50%;
+         width: 100%;
+         border: 20px;
+      }
+   }
+}
+

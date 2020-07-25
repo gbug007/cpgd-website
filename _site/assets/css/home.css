@@ -8,11 +8,15 @@
 
 body { margin: 0px; }
 
+html { height: 100%; }
+
 .copy-container { position: absolute; width: 100%; z-index: 3; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; text-align: center; }
 
 .copy-container .reveal { text-align: center; }
 
-.hero-container .sticky-lockup-container { height: 250vh; width: 100%; position: relative; display: flex; flex-direction: column; background-color: #0e141a; }
+.opacity-zero { opacity: 0; }
+
+.hero-container .sticky-lockup-container { height: calc(220vh + 50vw); width: 100%; position: relative; display: flex; flex-direction: column; background-color: #0e141a; }
 
 .hero-container .sticky-lockup-container .sticky-lockup { position: sticky; height: 100vh; top: 0; left: 0; overflow: hidden; z-index: 1; display: flex; flex-direction: column; align-items: center; }
 
@@ -20,32 +24,46 @@ body { margin: 0px; }
 
 .copy-container { padding-top: 25vh; font-size: 106px; }
 
+.copy-container .padding-container { height: 35vh; }
+
 @media only screen and (min-width: 0px) { .copy-container .hero-logo { max-width: 300px; } }
 
-@media only screen and (min-width: 450px) { .copy-container .hero-logo { max-width: 720px; } }
+@media only screen and (min-width: 450px) { .copy-container .hero-logo { max-width: 600px; } }
+
+@media only screen and (min-width: 1000px) { .copy-container .hero-logo { max-width: 720px; } }
 
 @media only screen and (min-width: 0px) { .copy-container .logo-large { width: 150px; } }
 
-@media only screen and (min-width: 450px) { .copy-container .logo-large { width: 300px; } }
+@media only screen and (min-width: 450px) { .copy-container .logo-large { width: 230px; } }
+
+@media only screen and (min-width: 1000px) { .copy-container .logo-large { width: 300px; } }
 
 @media only screen and (min-width: 0px) { .copy-container .brand-title { width: 300px; } }
 
-@media only screen and (min-width: 450px) { .copy-container .brand-title { width: 500px; } }
+@media only screen and (min-width: 450px) { .copy-container .brand-title { width: 400px; } }
+
+@media only screen and (min-width: 1000px) { .copy-container .brand-title { width: 500px; } }
 
 @media only screen and (min-width: 0px) { .copy-container .header { max-width: 300px; } }
 
-@media only screen and (min-width: 450px) { .copy-container .header { max-width: 750px; } }
+@media only screen and (min-width: 450px) { .copy-container .header { max-width: 500px; } }
 
-.copy-container h1 { padding-top: 35vh; color: #02bdf5; font-family: "AxiaBlack"; }
+@media only screen and (min-width: 1000px) { .copy-container .header { max-width: 750px; } }
+
+.copy-container h1 { color: #02bdf5; font-family: "AxiaBlack"; }
 
 @media only screen and (min-width: 0px) { .copy-container h1 { font-size: 50px; } }
 
-@media only screen and (min-width: 450px) { .copy-container h1 { font-size: 106px; } }
+@media only screen and (min-width: 450px) { .copy-container h1 { font-size: 80px; } }
 
-.copy-container h2 { padding-top: 35vh; color: #02bdf5; font-family: "AxiaBlack"; }
+@media only screen and (min-width: 1000px) { .copy-container h1 { font-size: 106px; } }
+
+.copy-container h2 { color: #02bdf5; font-family: "AxiaBlack"; }
 
 @media only screen and (min-width: 0px) { .copy-container h2 { font-size: 40px; } }
 
-@media only screen and (min-width: 450px) { .copy-container h2 { font-size: 70px; } }
+@media only screen and (min-width: 450px) { .copy-container h2 { font-size: 60px; } }
+
+@media only screen and (min-width: 1000px) { .copy-container h2 { font-size: 70px; } }
 
 /*# sourceMappingURL=home.css.map */

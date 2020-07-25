@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="/assets/css/footer.css">
+      <link rel="stylesheet" href="/assets/css/about.css">
+      
+      {% comment %} <script src="{{ base.url | prepend: site.url }}/assets/js/test.js"></script> {% endcomment %}
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+   </head>
+   <body>
+
+      {% include navbar.html %}
+
+      <div class="about-section-container">
+         <div class="about-section reveal-about" style="">
+            <img class="about-img" src="assets/images/aboutImage2.jpg">
+            <div class="about-description">
+               <h1> {{ page.header }} </h1>
+               <h2> Need to get in contact with us? Send us an email at {{page.email}} </h2>
+            </div>
+         </div>
+      </div>
+
+      {% include footer.html %}
+
+   </body>
+
+
+
+     
+</html>

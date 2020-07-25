@@ -9,26 +9,29 @@
 }
 .about-section {
    max-width: 850px;
-   height: 440px;
+   min-height: 440px;
 
    margin: 0 auto;
 
    .about-img {
       @media #{$about-size} {
          width: 100%;
+         padding: 0px;
       }
       width: 350px;
+      padding: 9px;
    }
 
    .about-description {
       float:right;
       width: 45%;
       @media #{$about-size} {
-         float: left;
+         float: none;
          width: 100%;
          padding-top: 20px;
       }
    }
+
 
    h1 {
       font-size: 40px;

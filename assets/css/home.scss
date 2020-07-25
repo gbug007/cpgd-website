@@ -3,6 +3,7 @@
 
 @import "global";
 
+
 .copy-container {
    position: absolute;
    width: 100%;
@@ -20,12 +21,16 @@
    }
 }
 
+.opacity-zero {
+   opacity: 0;
+}
+
 
 .hero-container {
 
    .sticky-lockup-container
    {
-      height: 250vh;
+      height: calc(220vh + 50vw);
       width: 100%;
       position: relative;
       display: flex;
@@ -60,11 +65,18 @@
    padding-top: 25vh;
    font-size: 106px;
 
+   .padding-container {
+      height: 35vh;
+   }
+
    .hero-logo {
       @media #{$small} {
          max-width: 300px;
       }
       @media #{$medium} {
+         max-width: 600px;
+      }
+      @media #{$large} {
          max-width: 720px;
       }
    }
@@ -74,6 +86,9 @@
          width: 150px;
       }
       @media #{$medium} {
+         width: 230px;
+      }
+      @media #{$large} {
          width: 300px;
       }
    }
@@ -82,6 +97,9 @@
          width: 300px;
       }
       @media #{$medium} {
+         width: 400px;
+      }
+      @media #{$large} {
          width: 500px;
       }
       
@@ -92,6 +110,9 @@
          max-width: 300px;
       }
       @media #{$medium} {
+         max-width: 500px;
+      }
+      @media #{$large} {
          max-width: 750px;
       }
       
@@ -102,9 +123,11 @@
          font-size: 50px;
       }
       @media #{$medium} {
+         font-size: 80px;
+      }
+      @media #{$large} {
          font-size: 106px;
       }
-      padding-top: 35vh;
       color: $mid-blue;
       font-family: "AxiaBlack";
    }
@@ -114,9 +137,11 @@
          font-size: 40px;
       }
       @media #{$medium} {
+         font-size: 60px;
+      }
+      @media #{$large} {
          font-size: 70px;
       }
-      padding-top: 35vh;
       color: $mid-blue;
       font-family: "AxiaBlack";
    }

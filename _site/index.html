@@ -2,11 +2,10 @@
    <head>
       <link rel="stylesheet" href="/assets/css/home.css">
       <link rel="stylesheet" href="/assets/css/about.css">
+      <link rel="stylesheet" href="/assets/css/footer.css">
       
       
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
 
    </head>
    <body>
@@ -22,7 +21,7 @@
       <img class="logo" src="assets/images/navbar-logo.svg">
 
       <!-- Hamburger Icon for mobile -->
-      <a href="#" onclick="enableBurgerMenu()" class="svg">
+      <a onclick="enableBurgerMenu()" class="svg">
       <object data="assets/images/burger-icon.svg" type="image/svg+xml" class="burger">
       </object>
       </a>
@@ -36,7 +35,15 @@
                
             
                
-                  <li class="label li-hidden"><a href="/test">Test</a></li>
+                  <li class="bottom-border label li-hidden"><a href="/test">Test</a></li>
+               
+            
+               
+                  <li class="bottom-border label li-hidden"><a href="/officers">Officers</a></li>
+               
+            
+               
+                  <li class="label li-hidden"><a href="/contact">Contact</a></li>
                
             
          </ul>
@@ -47,79 +54,101 @@
       <div class="hero-container">
          <div class="copy-container">
 
-            <!-- Hero Logo and CPGD Logo -->
-            <div class="hero-logo">
-               <object data="assets/images/logo-large.svg" type="image/svg+xml" class="logo-large">
-               </object>
-               <object data="assets/images/brand-title.svg" type="image/svg+xml" class="brand-title">
-               </object>
-            </div>
+   <!-- Hero Logo and CPGD Logo -->
+   <div class="hero-logo reveal-hero">
+      <object data="assets/images/logo-large.svg" type="image/svg+xml" class="logo-large">
+      </object>
+      <object data="assets/images/brand-title.svg" type="image/svg+xml" class="brand-title">
+      </object>
+   </div>
 
-            <!-- Header 1 -->
-            <div class="header reveal-hero">
-               <h1> LEARN. CREATE. PLAY.</h1>
-            </div>
+   <div class="padding-container"></div>
 
-            <!-- Header 2 -->
-            <div class="header reveal-hero">
-               <h2> Join Cal Poly's Game Dev Club, 6-7PM on Wednesdays. </h2>
-            </div>
-         </div>
+   <!-- Header 1 -->
+   <div class="header reveal-hero">
+      <h1> LEARN. CREATE. PLAY.</h1>
+   </div>
 
-         <!-- Sticky video background -->
-         <div class="sticky-lockup-container">
-            <div class="sticky-lockup">
-               <video id="hero-video" class="hero-video" autoplay muted loop playsinline
-                  src="assets/images/hero.mp4">
-            </div>
-         </div>
+   <div class="padding-container"></div>
+
+   <!-- Header 2 -->
+   <div class="header reveal-hero">
+      <h2> Join Cal Poly's Game Dev Club, 6-7PM on Wednesdays. </h2>
+   </div>
+</div>
+
+<!-- Sticky video background -->
+<div class="sticky-lockup-container">
+   <div class="sticky-lockup">
+      <video id="hero-video" class="hero-video" autoplay muted loop playsinline
+         src="assets/images/hero.mp4">
+   </div>
+</div>
+
 
       </div>
 
       <div class="about-section-container">
-         <div class="about-section">
-            <img class="about-img" src="assets/images/aboutImage1.jpg">
-            <div class="about-description">
-               <h1> WHAT IS CAL POLY GAME DEV? </h1>
-               <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
+         <div class="about-section reveal-about">
+   <img class="about-img" src="assets/images/aboutImage1.jpg">
+   <div class="about-description">
+      <h1> WHAT IS CAL POLY GAME DEV? </h1>
+      <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
 Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt.
  </h2>
-            </div>
-         </div>
-         <div class="about-section">
-            <img class="about-img" src="assets/images/aboutImage2.jpg">
-            <div class="about-description">
-               <h1> SOUNDS GREAT. HOW DO I JOIN? </h1>
-               <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
+   </div>
+</div>
+<div class="about-section reveal-about">
+   <img class="about-img" src="assets/images/aboutImage2.jpg">
+   <div class="about-description">
+      <h1> SOUNDS GREAT. HOW DO I JOIN? </h1>
+      <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
 Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt.
  </h2>
-            </div>
-         </div>
+   </div>
+</div>
 
-         <!-- Script for scroll revealing -->
-         <!--
-         <script>
-
-         </script>-->
       </div>
 
-      <!-- Script for scroll revealing 
+      
+<div class="footer">
+   <div class="content">
+      <img class="footer-logo" src="assets/images/footer-logo.svg">
+      <div class="copy-content">
+         <h1> STAY CONNECTED </h1>
+         <h2> Keep up with our emails! </h2>
+
+         <form>
+            <input class="email-bar" type="text">
+            <input class="email-button" type="submit" value="Submit">
+         </form>
+
+         <h1> Follow us on social media! </h1>
+      </div>
+   </div>
+
+</div>
+
       <script>
          var optionsHero = {
-            reset: true, delay: 100,
-            origin: 'top', 
-            scale: 0.9, 
-            opacity: 0,
-            viewFactor: 0.5,
-
+            reset: true, origin: 'top', 
+            scale: 0.9,  viewFactor: 0.4,
+            viewOffset: {
+               top: '50',
+               bottom: '50'
+            }
          }
          var optionsAbout = {
-         reset: false, delay: 200,
-         origin: 'bottom', distance: '30px'
+            reset: false,
+            origin: 'bottom', distance: '50px', duration: 1200
          }
+         ScrollReveal().reveal('.reveal-about', optionsAbout);
          ScrollReveal().reveal('.reveal-hero', optionsHero);
       </script>
-      -->
+
+   </body>
+
+
 
      
 </html>
