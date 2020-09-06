@@ -1,6 +1,6 @@
 ---
 
 layout: officers
-hero-path: hero.JPG
+hero-path: hero.jpg
 ---
 
