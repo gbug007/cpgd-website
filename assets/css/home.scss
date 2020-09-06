@@ -54,9 +54,21 @@
          .hero-video {
             vertical-align: baseline;
             display: inline-block;
-            object-fit: contain;
             opacity: 0.35;
             height: 100vh;
+
+
+
+            @media #{$large} {
+               object-fit: contain;
+               height: 100vh;
+               width: auto;
+            }
+
+            @media #{$xlarge} {
+               object-fit: fill;
+               width: 100%;
+            }
          }
       }
    }
