@@ -24,6 +24,8 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .footer .email-button { height: 30px; font-family: "Axia"; background-color: #81d5f8; border: none; }
 
+.footer .submit-button { height: 30px; font-family: "Axia"; background-color: #81d5f8; border: none; text-decoration: none; border-radius: 3px; padding: 6px; }
+
 .footer .footer-logo { float: right; width: 253px; padding: 10px 20px 0px 0px; }
 
 @media only screen and (max-width: 800px) { .footer .footer-logo { float: none; display: none; padding-top: 20px; } }

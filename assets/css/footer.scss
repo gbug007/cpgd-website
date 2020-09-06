@@ -46,6 +46,18 @@
       border: none;
    }
 
+   .submit-button 
+   {
+      height: 30px;
+      font-family: "Axia";
+
+      background-color: $light-blue;
+      border: none;
+      text-decoration: none;
+      border-radius: 3px;
+      padding: 6px;
+   }
+
    .footer-logo {
 
          float: right;

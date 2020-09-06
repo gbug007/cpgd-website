@@ -24,7 +24,7 @@ html { height: 100%; scroll-behavior: smooth; }
 
 @media only screen and (min-width: 1000px) { .hero-container .sticky-lockup-container .sticky-lockup .hero-video { object-fit: contain; height: 100vh; width: auto; } }
 
-@media only screen and (min-width: 2110px) { .hero-container .sticky-lockup-container .sticky-lockup .hero-video { object-fit: fill; width: 100%; } }
+@media only screen and (min-width: 2110px) { .hero-container .sticky-lockup-container .sticky-lockup .hero-video { object-fit: cover; width: 100%; } }
 
 .copy-container { padding-top: 25vh; font-size: 106px; }
 
