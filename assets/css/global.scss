@@ -11,7 +11,7 @@ $blue: #007ab0;
 $deep-blue: #034877;
 $light-blue: #81d5f8;
 $mid-blue: #02bdf5;
-$green: #009081;
+$green: #00af9e;
 $yellow: #fcd461;
 $black: #0e141a;
 
@@ -41,4 +41,6 @@ body {
 
 html {
    height: 100%;
+   scroll-behavior: smooth;
 }
+

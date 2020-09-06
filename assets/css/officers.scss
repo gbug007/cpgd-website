@@ -71,6 +71,14 @@
 
    h3 {
       font-size: 18px;
+      color: $deep-blue;
+      font-family: "AxiaBlack";
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   h4 {
+      font-size: 18px;
       color: $black;
       font-family: "AxiaBlack";
       margin-top: 5px;
@@ -80,11 +88,11 @@
    .officers {
       padding: 30px;
       text-align:center;
-      max-width: 800px;
+      max-width: 1200px;
       margin: auto;
 
       .officer-container {
-         padding: 20px;
+         padding: 20px 54px;
          display: inline-block;
          text-align: center;
          width: 200px;

@@ -1,11 +1,12 @@
 <html>
    <head>
-      <link rel="stylesheet" href="/assets/css/home.css">
-      <link rel="stylesheet" href="/assets/css/about.css">
-      <link rel="stylesheet" href="/assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/home.css">
+      <link rel="stylesheet" href="assets/css/about.css">
+      <link rel="stylesheet" href="assets/css/footer.css">
       
       {% comment %} <script src="{{ base.url | prepend: site.url }}/assets/js/test.js"></script> {% endcomment %}
       <script src="https://unpkg.com/scrollreveal"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    </head>
    <body>
@@ -16,7 +17,7 @@
          {% include hero.html %}
       </div>
 
-      <div class="about-section-container">
+      <div id="about-section" class="about-section-container">
          {% include about.html %}
       </div>
 
@@ -24,16 +25,12 @@
 
       <script>
          var optionsHero = {
-            reset: true, origin: 'top', 
-            scale: 0.9,  viewFactor: 0.4,
-            viewOffset: {
-               top: '50',
-               bottom: '50'
-            }
+            reset: true, 
+            scale: 0.9,  viewFactor: 0.4
          }
          var optionsAbout = {
             reset: false,
-            origin: 'bottom', distance: '50px', duration: 1200
+            origin: 'bottom', distance: '50px'
          }
          ScrollReveal().reveal('.reveal-about', optionsAbout);
          ScrollReveal().reveal('.reveal-hero', optionsHero);

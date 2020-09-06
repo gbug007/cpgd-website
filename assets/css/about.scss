@@ -6,6 +6,7 @@
 
 .about-section-container {
    padding: 80px 50px;
+   min-height: calc(100vh - 460px);
 }
 .about-section {
    max-width: 850px;
@@ -16,10 +17,19 @@
    .about-img {
       @media #{$about-size} {
          width: 100%;
-         padding: 0px;
+         padding: 20px 0px;
       }
       width: 350px;
       padding: 9px;
+      paddng-bottom: 20px;
+   }
+
+   .about-img-left {
+      float:left;
+   }
+
+   .about-img-right {
+      float:right;
    }
 
    .about-description {
@@ -30,6 +40,11 @@
          width: 100%;
          padding-top: 20px;
       }
+   }
+
+   .about-description-left {
+      float:left;
+      padding-bottom: 20px;
    }
 
 

@@ -8,21 +8,27 @@
 
 body { margin: 0px; }
 
-html { height: 100%; }
+html { height: 100%; scroll-behavior: smooth; }
 
-.about-section-container { padding: 80px 50px; }
+.about-section-container { padding: 80px 50px; min-height: calc(100vh - 460px); }
 
 .about-section { max-width: 850px; min-height: 440px; margin: 0 auto; }
 
-.about-section .about-img { width: 350px; padding: 9px; }
+.about-section .about-img { width: 350px; padding: 9px; paddng-bottom: 20px; }
 
-@media only screen and (max-width: 800px) { .about-section .about-img { width: 100%; padding: 0px; } }
+@media only screen and (max-width: 800px) { .about-section .about-img { width: 100%; padding: 20px 0px; } }
+
+.about-section .about-img-left { float: left; }
+
+.about-section .about-img-right { float: right; }
 
 .about-section .about-description { float: right; width: 45%; }
 
 @media only screen and (max-width: 800px) { .about-section .about-description { float: none; width: 100%; padding-top: 20px; } }
 
-.about-section h1 { font-size: 40px; color: #009081; font-family: "AxiaBlack"; margin-top: 0px; }
+.about-section .about-description-left { float: left; padding-bottom: 20px; }
+
+.about-section h1 { font-size: 40px; color: #00af9e; font-family: "AxiaBlack"; margin-top: 0px; }
 
 .about-section h2 { font-size: 18px; color: #0e141a; font-family: "AxiaBlack"; }
 

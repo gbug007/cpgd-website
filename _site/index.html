@@ -1,11 +1,12 @@
 <html>
    <head>
-      <link rel="stylesheet" href="/assets/css/home.css">
-      <link rel="stylesheet" href="/assets/css/about.css">
-      <link rel="stylesheet" href="/assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/home.css">
+      <link rel="stylesheet" href="assets/css/about.css">
+      <link rel="stylesheet" href="assets/css/footer.css">
       
       
       <script src="https://unpkg.com/scrollreveal"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    </head>
    <body>
@@ -17,8 +18,15 @@
 
 <div class="bar">
    <div class="content">
-      <img class="icon" src="assets/images/logo-small.png">
-      <img class="logo" src="assets/images/navbar-logo.svg">
+
+      <a href="/"class="navbar-logo-wrapper">
+         <img class="icon" src=/assets/images/logo-small.png>
+      </a>
+
+      <a href="/"class="navbar-logo-wrapper">
+         <img class="logo" src=/assets/images/navbar-logo.svg>
+      </a>
+
 
       <!-- Hamburger Icon for mobile -->
       <a onclick="enableBurgerMenu()" class="svg">
@@ -29,14 +37,7 @@
 
       <div class="tabs tabs-hidden">
          <ul class="ul ul-hidden">
-            
-               
-                  <li class="bottom-border label li-hidden"><a href="/about">About</a></li>
-               
-            
-               
-                  <li class="bottom-border label li-hidden"><a href="/test">Test</a></li>
-               
+            <li class="bottom-border label li-hidden"><a href="/#about-section">About</a></li>
             
                
                   <li class="bottom-border label li-hidden"><a href="/officers">Officers</a></li>
@@ -73,7 +74,7 @@
 
    <!-- Header 2 -->
    <div class="header reveal-hero">
-      <h2> Join Cal Poly's Game Dev Club, 6-7PM on Wednesdays. </h2>
+      <h2> Join CPGD Meetings on our <a href=”http://www.UltimateGuideToWordpressPlugins.com” target=”_blank”><strong> Discord </strong></a> every Wednesday 6-8pm. </h2>
    </div>
 </div>
 
@@ -88,23 +89,21 @@
 
       </div>
 
-      <div class="about-section-container">
+      <div id="about-section" class="about-section-container">
          <div class="about-section reveal-about">
-   <img class="about-img" src="assets/images/aboutImage1.jpg">
+   <img class="about-img about-img-left" src="assets/images/about/aboutImg1.jpg">
    <div class="about-description">
       <h1> WHAT IS CAL POLY GAME DEV? </h1>
-      <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
-Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt.
- </h2>
+      <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et isdd rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
+Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt. </h2>
    </div>
 </div>
 <div class="about-section reveal-about">
-   <img class="about-img" src="assets/images/aboutImage2.jpg">
-   <div class="about-description">
+   <img class="about-img about-img-right" src="assets/images/about/aboutImg2.jpg">
+   <div class="about-description about-description-left">
       <h1> SOUNDS GREAT. HOW DO I JOIN? </h1>
-      <h2> Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et is rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
-Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt.
- </h2>
+      <h2> Here we add the rest of the text! Wow, isn't this exciting!! I don't like writing, so heres some more lorem ipsum! cullabo. Et isdd rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
+Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt. </h2>
    </div>
 </div>
 
@@ -119,7 +118,7 @@ Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re voleni
          <h2> Keep up with our emails! </h2>
 
          <form>
-            <input class="email-bar" type="text">
+            <input class="email-bar" type="text" placeholder="youremail@gmail.com">
             <input class="email-button" type="submit" value="Submit">
          </form>
 
@@ -131,16 +130,12 @@ Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re voleni
 
       <script>
          var optionsHero = {
-            reset: true, origin: 'top', 
-            scale: 0.9,  viewFactor: 0.4,
-            viewOffset: {
-               top: '50',
-               bottom: '50'
-            }
+            reset: true, 
+            scale: 0.9,  viewFactor: 0.4
          }
          var optionsAbout = {
             reset: false,
-            origin: 'bottom', distance: '50px', duration: 1200
+            origin: 'bottom', distance: '50px'
          }
          ScrollReveal().reveal('.reveal-about', optionsAbout);
          ScrollReveal().reveal('.reveal-hero', optionsHero);

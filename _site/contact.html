@@ -1,10 +1,11 @@
 <html>
    <head>
-      <link rel="stylesheet" href="/assets/css/footer.css">
-      <link rel="stylesheet" href="/assets/css/about.css">
+      <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/about.css">
       
       
       <script src="https://unpkg.com/scrollreveal"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    </head>
    <body>
@@ -16,8 +17,15 @@
 
 <div class="bar">
    <div class="content">
-      <img class="icon" src="assets/images/logo-small.png">
-      <img class="logo" src="assets/images/navbar-logo.svg">
+
+      <a href="/"class="navbar-logo-wrapper">
+         <img class="icon" src=/assets/images/logo-small.png>
+      </a>
+
+      <a href="/"class="navbar-logo-wrapper">
+         <img class="logo" src=/assets/images/navbar-logo.svg>
+      </a>
+
 
       <!-- Hamburger Icon for mobile -->
       <a onclick="enableBurgerMenu()" class="svg">
@@ -28,14 +36,7 @@
 
       <div class="tabs tabs-hidden">
          <ul class="ul ul-hidden">
-            
-               
-                  <li class="bottom-border label li-hidden"><a href="/about">About</a></li>
-               
-            
-               
-                  <li class="bottom-border label li-hidden"><a href="/test">Test</a></li>
-               
+            <li class="bottom-border label li-hidden"><a href="/#about-section">About</a></li>
             
                
                   <li class="bottom-border label li-hidden"><a href="/officers">Officers</a></li>
@@ -69,7 +70,7 @@
          <h2> Keep up with our emails! </h2>
 
          <form>
-            <input class="email-bar" type="text">
+            <input class="email-bar" type="text" placeholder="youremail@gmail.com">
             <input class="email-button" type="submit" value="Submit">
          </form>
 

@@ -36,6 +36,7 @@
       display: flex;
       flex-direction: column;
       background-color: $black;
+      max-height: 2900px;
 
 
       .sticky-lockup {
@@ -55,6 +56,7 @@
             display: inline-block;
             object-fit: contain;
             opacity: 0.35;
+            height: 100vh;
          }
       }
    }
@@ -144,5 +146,17 @@
       }
       color: $mid-blue;
       font-family: "AxiaBlack";
+   }
+
+   a {
+      text-decoration: none;
+      color: #fcd461;
+
+      transition: 0.5s;
+   }
+
+   a:hover {
+      color: #7847fd;
+
    }
 }

@@ -1,11 +1,12 @@
 <html>
    <head>
-      <link rel="stylesheet" href="/assets/css/officers.css">
-      <link rel="stylesheet" href="/assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/officers.css">
+      <link rel="stylesheet" href="assets/css/footer.css">
       
       {% comment %} <script src="{{ base.url | prepend: site.url }}/assets/js/test.js"></script> {% endcomment %}
       <script src="https://unpkg.com/scrollreveal"></script>
       {% assign officer_info = site.data.officers %}
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    </head>
    <body>
@@ -13,7 +14,7 @@
       {% include navbar.html %}
       <div class="officers-container">
          <div class="hero">
-            <img class="hero-img" src="assets/images/officers.jpg">
+            <img class="hero-img" src="assets/images/officers/{{page.hero-path}}">
             <h1 class="hero-header"> MEET THE OFFICERS. </h1>
          </div>
 
@@ -21,9 +22,10 @@
          <div class="officers">
             {% for officer in officer_info %}
                <div class="officer-container">
-                  <img class="officer-icon" src="assets/images/aboutImage1.jpg">
+                  <img class="officer-icon" src=assets/images/officers/{{officer.img-path}}>
                   <h2> {{officer.name}} </h2>
-                  <h3> {{officer.description}} </h3>
+                  <h3> {{officer.title}} </h3>
+                  <h4> {{officer.description}} </h4>
                </div>
             {% endfor %}
          </div>

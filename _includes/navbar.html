@@ -5,8 +5,15 @@
 
 <div class="bar">
    <div class="content">
-      <img class="icon" src="assets/images/logo-small.png">
-      <img class="logo" src="assets/images/navbar-logo.svg">
+
+      <a href="{{site.baseurl}}/"class="navbar-logo-wrapper">
+         <img class="icon" src={{ "assets/images/logo-small.png" | relative_url }}>
+      </a>
+
+      <a href="{{site.baseurl}}/"class="navbar-logo-wrapper">
+         <img class="logo" src={{ "assets/images/navbar-logo.svg" | relative_url }}>
+      </a>
+
 
       <!-- Hamburger Icon for mobile -->
       <a onclick="enableBurgerMenu()" class="svg">
@@ -17,6 +24,7 @@
 
       <div class="tabs tabs-hidden">
          <ul class="ul ul-hidden">
+            <li class="bottom-border label li-hidden"><a href="{{site.baseurl}}/#about-section">About</a></li>
             {% for item in tabs %}
                {% if forloop.last == false %}
                   <li class="bottom-border label li-hidden"><a href="{{ item.url }}">{{ item.title }}</a></li>

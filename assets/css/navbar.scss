@@ -60,6 +60,10 @@
          text-decoration: none;
          padding-right: 25px;
          font-size: 14px;
+         transition: 0.3s;
+      }
+      a:hover {
+         color: $yellow;
       }
    }
 }
