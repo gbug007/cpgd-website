@@ -23,9 +23,11 @@
 
    @media #{$small} {
       width: 100%;
+      margin-top: 8px;
    }
    @media #{$medium} {
       width: auto;
+      margin-top: 0px;
    }
 
    ul {
@@ -34,11 +36,15 @@
          background-color: $deep-blue;
       }
       @media #{$medium} {
-         padding-top: 9px;
+         padding-top: 0px;
          background-color: transparent;
       }
       list-style-type: none;
       margin: 0;
+
+      display: table;
+      height: 100%;
+      width: 100%;
 
    }
    
@@ -46,12 +52,13 @@
       transition: all 0.5s ease;
       @media #{$small} {
          display: block;
-         padding: 10px;
+         padding: 14px;
       }
    
       @media #{$medium} {
-         display: inline;
          text-align: left;
+         display: table-cell;
+         text-align: center;
          vertical-align: middle;
       }
       font-family: "Axia";
@@ -104,12 +111,12 @@
 .icon {
    height: 37px;
    margin-left: 10px;
-   padding-top: 3px;
+   padding-top: 7px;
 }
 
 .logo {
    height: 27px;
-   top: 6px;
+   top: 11px;
    position:absolute;
    color: pink;
 
@@ -118,26 +125,31 @@
 .bar {
    position: fixed;
    width: 100%;
-   height: 41px;
+   height: 53px;
    background-color: #0e141a;
    opacity: 0.95;
    z-index: 5;
    border-top: 3px solid $deep-blue;
+   transition: all 0.5s ease;
+}
+
+.hamburger-icon-container {
+   vertical-align: middle; 
+   position: absolute;
+   padding-top: 11px;
+   right: 0;
 }
 
 .burger {
-   @media #{$medium} {
-      visibility: hidden;
-   }
-   fill: $blue;
-   padding-top: 9px;
-   width: 30px;
-   position: absolute;
-   right: 0;
-   padding-right: 20px;
-   pointer-events:fill;
-}
+  @media #{$medium} {
+     visibility: hidden;
+  }
+  height: 25px;
+  fill: $blue;
+  padding-right: 20px;
+  pointer-events:fill;
 
+}
 a.svg:after {
    content: ""; 
    position: absolute; 

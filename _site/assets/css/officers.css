@@ -32,6 +32,8 @@ html { height: 100%; scroll-behavior: smooth; }
 
 .officers-container h4 { font-size: 18px; color: #0e141a; font-family: "AxiaBlack"; margin-top: 5px; margin-bottom: 5px; }
 
+.officers-container h5 { font-size: 15px; color: #0e141a; font-family: "AxiaBlack"; margin-top: 5px; margin-bottom: 5px; }
+
 .officers-container .officers { padding: 30px; text-align: center; max-width: 1200px; margin: auto; }
 
 .officers-container .officers .officer-container { padding: 20px 54px; display: inline-block; text-align: center; width: 200px; top: 0; vertical-align: text-top; }

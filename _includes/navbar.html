@@ -3,7 +3,7 @@
 
 {% assign tabs = site.data.sites %}
 
-<div class="bar">
+<div id="navbar" class="bar">
    <div class="content">
 
       <a href="{{site.baseurl}}/"class="navbar-logo-wrapper">
@@ -16,10 +16,16 @@
 
 
       <!-- Hamburger Icon for mobile -->
-      <a onclick="enableBurgerMenu()" class="svg">
+      <!-- <a onclick="enableBurgerMenu()" class="svg">
       <object data="assets/images/burger-icon.svg" type="image/svg+xml" class="burger">
       </object>
-      </a>
+      </a> -->
+
+      <a  class="navbar-logo-container hamburger-icon-container">
+         <div style="height:37px" class="navbar-logo-wrapper">
+             <img onclick="enableBurgerMenu()" src= {{ "assets/images/navbar/burger-icon.png" | relative_url }} type="image/svg+xml" class="burger">
+         </div>
+     </a>  
 
 
       <div class="tabs tabs-hidden">

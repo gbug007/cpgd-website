@@ -28,7 +28,7 @@
    .email-bar {
       margin-top: 10px;
       @media #{$small} {
-         width: 100%;
+         width: 75%;
          margin-bottom: 10px;
       }
       @media #{$medium} {
@@ -55,7 +55,9 @@
       border: none;
       text-decoration: none;
       border-radius: 3px;
-      padding: 6px;
+      padding: 8px;
+      font-size: 13px;
+      color: $deep-blue;
    }
 
    .footer-logo {
