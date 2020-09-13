@@ -59,4 +59,16 @@
       color: $black;
       font-family: "AxiaBlack";
    }
+
+   a {
+      font-size: 18px;
+      color: $blue;
+      font-family: "AxiaBlack";
+      text-decoration: none;
+      transition: all 0.3s;
+   }
+
+   a:hover {
+      color: $green;
+   }
 }

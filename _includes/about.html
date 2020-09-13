@@ -2,13 +2,13 @@
    <img class="about-img about-img-left" src="assets/images/about/{{page.about1-img-path}}">
    <div class="about-description">
       <h1> {{ page.aboutSectionHeader1 }} </h1>
-      <h2> {{ page.content }} </h2>
+      <h2> {% include_relative /about2.md %} </h2>
    </div>
 </div>
 <div class="about-section reveal-about">
    <img class="about-img about-img-right" src="assets/images/about/{{page.about2-img-path}}">
    <div class="about-description about-description-left">
       <h1> {{ page.aboutSectionHeader2 }} </h1>
-      <h2> {% include_relative /about2.md %} </h2>
+      <h2> {{ content }} </h2>
    </div>
 </div>

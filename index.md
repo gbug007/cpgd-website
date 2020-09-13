@@ -15,5 +15,14 @@ about2-img-path: aboutImg2.jpg
 
 #About section description
 ---
-Bea dolorib usdae. Ta dolenis dolest molorum aut exceper spererferum nos quis dfdfdfdfdnobis aut hit, coressimpere liquatatus, iur magnatiate et, consequam et hario omnis quae sit omnis ipitatibusae nonsentibusa is enti qui aut fugiant otature pedio. Nam facerfe rovit, cullabo. Et isdd rersperia nost, ute eicim re voloriam, sandi ipsam adit el iuscietus.
-Otatioreces maionet re sedisqu ibeatent, quiam, acestem porionse verum re volenis audant abores et quis eum sundero offictam intibus cilignim sit mos et earum qui cor sae nonecea ribus, sunt.
+CPGD doesn't require any kind of official sign-up to join! Simply attend the meetings and events to participate in club activities. Due to current club guidelines all meetings will be run through our [discord server][discord-link] at 6:30 PM every Wednesday and we will also run a dedicated time for development every Saturday. 
+
+
+
+
+
+To keep up to date with club information, you can [sign up for our newsletter][sign-up] that goes out every Monday with the sign-up box below.
+
+
+[discord-link]: https://jekyllrb.com/docs/home
+[sign-up]: https://cpgd.us1.list-manage.com/subscribe/post?u=adaf6afb0bfda5aee536caf7b&id=519e5b9894
