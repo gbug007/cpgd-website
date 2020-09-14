@@ -28,8 +28,11 @@
                   <h2> {{officer.name}} </h2>
                   <h3> {{officer.title}} </h3>
                   <h5> {{officer.email}} </h5>
-                  <h4> {{officer.description}} </h4>
-
+                  {% if officer.name == "Nicholas Nolasco" %}
+                     <h4> A VR Enthusiast and, drum role please, <i>cue fireworks, extravagant horns, and confetti</i> Video Game Expert and Extraordinaire </h4>
+                  {% else %}
+                      <h4> {{officer.description}} </h4>
+                  {% endif %}
                </div>
             {% endfor %}
          </div>

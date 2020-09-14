@@ -3,7 +3,8 @@
   img-path: lucas.jpg
   title: President
   description: The president....
-  email: fsoetris@calpoly.edu
+  email: lucas@cpgd.org
+
 
 - name: Nate Ball
   img-path: nate.jpg
@@ -15,13 +16,13 @@
   img-path: will.jpg
   title: ???
   description: wombat
-  email: unclear@calpoly.edu
+  email: willpeacock@cpgd.org
 
 - name: Fiona Soetrisno
   img-path: fiona.png
   title: Web Master
   description: I'm a 3rd year CS major and I like games and art uwu. 
-  email: fsoetris@calpoly.edu
+  email: fiona@cpgd.org
 
 - name: Felix Situ
   img-path: felix.png
@@ -29,8 +30,8 @@
   description: Game Developer and Gamer
   email: fsitu@cpgd.org
 
-- name: Fiona Soetrisno
-  img-path: fiona.png
-  title: Web Master
-  description: I'm a 3rd year CS major and I like games and art uwu. 
-  email: fsoetris@calpoly.edu
+- name: Nicholas Nolasco
+  img-path: nick.jpg
+  title: General Officer
+  description: Doing something dumb because Nick wanted italics, so it's in officers.html....
+  email: nnolasco@calpoly.edu
