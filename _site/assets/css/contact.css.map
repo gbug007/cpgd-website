@@ -6,7 +6,7 @@
 		"assets/css/global.scss"
 	],
 	"sourcesContent": [
-		"@import \"global\";\n\n.contact-section-container\n{\n    padding: 80px 40px 72px 40px;\n    min-height: calc(100vh - 497px);\n}",
+		"@import \"global\";\n\n.contact-section-container\n{\n    padding: 80px 40px 72px 40px;\n    min-height: calc(100vh - 572px);\n}",
 		"\r\n$small: \"only screen and (min-width : 0px)\";\r\n$medium: \"only screen and (min-width : 450px)\";\r\n$large: \"only screen and (min-width : 1000px)\";\r\n$xlarge: \"only screen and (min-width : 2110px)\";\r\n\r\n$about-size: \"only screen and (max-width : 875px)\";\r\n\r\n// Color swatches\r\n\r\n$blue: #007ab0;\r\n$deep-blue: #034877;\r\n$light-blue: #81d5f8;\r\n$mid-blue: #02bdf5;\r\n$green: #00af9e;\r\n$yellow: #fcd461;\r\n$black: #0e141a;\r\n\r\n.hello {\r\n   color: blue;\r\n   .woo {\r\n      color: pink;\r\n      padding-top: 45vh;\r\n      text-align: center;\r\n      font-size: 150px;\r\n   }\r\n}\r\n\r\n@font-face {\r\n   font-family: \"Axia\";\r\n   src: url(\"../fonts/AxiaBold.otf\");\r\n}\r\n\r\n@font-face {\r\n   font-family: \"AxiaBlack\";\r\n   src: url(\"../fonts/AxiaBlack.otf\");\r\n}\r\n\r\nbody {\r\n   margin: 0px;\r\n}\r\n\r\nhtml {\r\n   height: 100%;\r\n   scroll-behavior: smooth;\r\n}\r\n\r\n"
 	],
 	"names": [],
