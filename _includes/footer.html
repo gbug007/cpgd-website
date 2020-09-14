@@ -1,5 +1,6 @@
 
 <div class="footer">
+   {% assign icons = site.data.footerIcons %}
    <div class="content">
       <img class="footer-logo" src="assets/images/footer-logo.svg">
       <div class="copy-content">
@@ -12,6 +13,11 @@
          </form>
 
          <h1> {{ site.footer_media }} </h1>
+         {% for icon in icons %}
+            <a href="{{icon.link}}" target="_blank">
+               <img alt="{{icon.name}}" class="logo-icon" src="assets/images/footer/{{icon.path}}">
+            </a>
+         {% endfor %}
       </div>
    </div>
 

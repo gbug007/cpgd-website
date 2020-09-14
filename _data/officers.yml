@@ -1,8 +1,8 @@
 
-- name: Lucas ??
+- name: Lucas
   img-path: lucas.jpg
-  title: Prez
-  description: I'm a 3rd year CS major and I like games and art uwu. 
+  title: President
+  description: The president....
   email: fsoetris@calpoly.edu
 
 - name: Nate Ball
@@ -23,11 +23,11 @@
   description: I'm a 3rd year CS major and I like games and art uwu. 
   email: fsoetris@calpoly.edu
 
-- name: Fiona Soetrisno
-  img-path: fiona.png
-  title: Web Master
-  description: I'm a 3rd year CS major and I like games and art uwu. 
-  email: fsoetris@calpoly.edu
+- name: Felix Situ
+  img-path: felix.png
+  title: Teasurer
+  description: Game Developer and Gamer
+  email: fsitu@cpgd.org
 
 - name: Fiona Soetrisno
   img-path: fiona.png

@@ -1,0 +1,15 @@
+- name: discord
+  path: discord.svg
+  link: https://discord.gg/A9dB8Gq
+- name: facebook
+  path: facebook.svg
+  link: https://www.facebook.com/CPGameDev/
+- name: twitter
+  path: twitter.svg
+  link: https://twitter.com/CPGameDev
+- name: google
+  path: google-drive.svg
+  link: https://drive.google.com/drive/folders/1G9QWfwB9TNWL0VQDAwWGLV3-YCct08Bx?usp=sharing
+- name: itch
+  path: itch-logo.svg
+  link: https://cpgd.itch.io/

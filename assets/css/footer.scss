@@ -74,6 +74,25 @@
       }
    }
 
+   .logo-icon
+   {
+      padding: 5px;
+      opacity: 0.8;
+      transition: all 0.2s;
+
+      @media #{$small} {
+         width: 38px;
+      }
+
+      @media #{$medium} {
+         width: 50px;
+      }
+   }
+   .logo-icon:hover
+   {
+      opacity: 1;
+   }
+
    h1 {
       color: $yellow;
       font-family: "AxiaBlack";

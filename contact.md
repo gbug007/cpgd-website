@@ -15,6 +15,6 @@ We are also open to collaboration with other clubs and organizations, so please 
 
 
 
-[discord-link]: https://jekyllrb.com/docs/home
+[discord-link]: https://discord.gg/A9dB8Gq
 [email]: mailto:officers@cpgd.org
 [officers]: cpgd-website/officers
