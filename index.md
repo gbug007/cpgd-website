@@ -7,7 +7,7 @@ layout: home
 header1: LEARN. CREATE. PLAY.
 header2: Join CPGD Meetings on our Discord, every Wednesday 6-8pm.
 
-aboutSectionHeader1: WHAT IS CAL POLY GAME DEV?
+aboutSectionHeader1: WHAT IS CAL POLY GAME DEVELOPMENT?
 aboutSectionHeader2: SOUNDS GREAT. HOW DO I JOIN?
 
 about1-img-path: aboutImg1.jpg
