@@ -5,6 +5,12 @@
   description: The president....
   email: lucas@cpgd.org
 
+- name: peacock
+  img-path: will.jpg
+  title: Vice President 
+  description: wombat ??
+  email: willpeacock@cpgd.org
+
 
 - name: Nate Ball
   img-path: nate.jpg
@@ -12,16 +18,12 @@
   description: I'm a 4th year CPE Major, but more importantly, I'm a gamer.
   email: nateball@cpgd.org
 
-- name: peacock
-  img-path: will.jpg
-  title: ???
-  description: wombat
-  email: willpeacock@cpgd.org
+
 
 - name: Fiona Soetrisno
   img-path: fiona.png
   title: Web Master
-  description: I'm a 3rd year CS major and I like games and art uwu. 
+  description: I'm a 3rd year CS major and I like games and art uwu. Hoping to focus more on computer graphics and game dev in the future.
   email: fiona@cpgd.org
 
 - name: Felix Situ
