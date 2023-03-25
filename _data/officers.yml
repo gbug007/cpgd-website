@@ -1,39 +1,39 @@
 
-- name: Lucas
-  img-path: lucas.jpg
+- name: President
+  img-path: example.jpg
   title: President
-  description: The president....
-  email: lucas@cpgd.org
+  description: President Description
+  email: officers@cpgd.org
 
-- name: peacock
-  img-path: will.jpg
+- name: Vice President
+  img-path: example.jpg
   title: Vice President 
   description: wombat ??
-  email: willpeacock@cpgd.org
+  email: officers@cpgd.org
 
 
-- name: Nate Ball
-  img-path: nate.jpg
+- name: Secretary
+  img-path: example.jpg
   title: Secretary
-  description: I'm a 4th year CPE Major, but more importantly, I'm a gamer.
-  email: nateball@cpgd.org
+  description: Secretary Description
+  email: officers@cpgd.org
 
 
 
-- name: Fiona Soetrisno
-  img-path: fiona.png
+- name: Web Master
+  img-path: example.png
   title: Web Master
-  description: I'm a 3rd year CS major and I like games and art uwu. Hoping to focus more on computer graphics and game dev in the future.
-  email: fiona@cpgd.org
+  description: Web Master Description
+  email: officers@cpgd.org
 
-- name: Felix Situ
-  img-path: felix.png
+- name: Treasurer
+  img-path: example.png
   title: Teasurer
-  description: Game Developer and Gamer
-  email: fsitu@cpgd.org
+  description: Treasurer Description
+  email: officers@cpgd.org
 
-- name: Nicholas Nolasco
-  img-path: nick.jpg
+- name: General Officer
+  img-path: example.jpg
   title: General Officer
-  description: Doing something dumb because Nick wanted italics, so it's in officers.html....
-  email: nnolasco@calpoly.edu
+  description: General Officer Description
+  email: officers@calpoly.edu
