@@ -1,15 +1,33 @@
-.hello { color: blue; }
+.hello {
+  color: blue;
+}
+.hello .woo {
+  color: pink;
+  padding-top: 45vh;
+  text-align: center;
+  font-size: 150px;
+}
 
-.hello .woo { color: pink; padding-top: 45vh; text-align: center; font-size: 150px; }
+@font-face {
+  font-family: "Axia";
+  src: url("../fonts/AxiaBold.otf");
+}
+@font-face {
+  font-family: "AxiaBlack";
+  src: url("../fonts/AxiaBlack.otf");
+}
+body {
+  margin: 0px;
+}
 
-@font-face { font-family: "Axia"; src: url("../fonts/AxiaBold.otf"); }
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
 
-@font-face { font-family: "AxiaBlack"; src: url("../fonts/AxiaBlack.otf"); }
-
-body { margin: 0px; }
-
-html { height: 100%; scroll-behavior: smooth; }
-
-.contact-section-container { padding: 80px 40px 72px 40px; min-height: calc(100vh - 572px); }
+.contact-section-container {
+  padding: 80px 40px 72px 40px;
+  min-height: calc(100vh - 572px);
+}
 
 /*# sourceMappingURL=contact.css.map */

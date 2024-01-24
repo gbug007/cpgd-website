@@ -1,65 +1,194 @@
-.hello { color: blue; }
+.hello {
+  color: blue;
+}
+.hello .woo {
+  color: pink;
+  padding-top: 45vh;
+  text-align: center;
+  font-size: 150px;
+}
 
-.hello .woo { color: pink; padding-top: 45vh; text-align: center; font-size: 150px; }
+@font-face {
+  font-family: "Axia";
+  src: url("../fonts/AxiaBold.otf");
+}
+@font-face {
+  font-family: "AxiaBlack";
+  src: url("../fonts/AxiaBlack.otf");
+}
+body {
+  margin: 0px;
+}
 
-@font-face { font-family: "Axia"; src: url("../fonts/AxiaBold.otf"); }
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
 
-@font-face { font-family: "AxiaBlack"; src: url("../fonts/AxiaBlack.otf"); }
+.tabs {
+  float: right;
+  height: 100%;
+  transition: all 0.5s ease;
+  transform-origin: top;
+  z-index: 0;
+}
+@media only screen and (min-width : 0px) {
+  .tabs {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+@media only screen and (min-width : 450px) {
+  .tabs {
+    width: auto;
+    margin-top: 0px;
+  }
+}
+.tabs ul {
+  list-style-type: none;
+  margin: 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (min-width : 0px) {
+  .tabs ul {
+    padding: 3px 15px;
+    background-color: #034877;
+  }
+}
+@media only screen and (min-width : 450px) {
+  .tabs ul {
+    padding-top: 0px;
+    background-color: transparent;
+  }
+}
+.tabs li {
+  transition: all 0.5s ease;
+  font-family: "Axia";
+}
+@media only screen and (min-width : 0px) {
+  .tabs li {
+    display: block;
+    padding: 14px;
+  }
+}
+@media only screen and (min-width : 450px) {
+  .tabs li {
+    text-align: left;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+.tabs li a {
+  color: #007ab0;
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.tabs li a:hover {
+  color: #fcd461;
+}
 
-body { margin: 0px; }
+@media only screen and (min-width : 0px) {
+  .tabs-hidden {
+    transform: scaleY(0);
+  }
+}
+@media only screen and (min-width : 450px) {
+  .tabs-hidden {
+    transform: scaleY(1);
+    transition: all 0s ease;
+  }
+}
 
-html { height: 100%; scroll-behavior: smooth; }
+@media only screen and (min-width : 0px) {
+  .li-hidden {
+    opacity: 0;
+  }
+}
+@media only screen and (min-width : 450px) {
+  .li-hidden {
+    opacity: 1;
+  }
+}
 
-.tabs { float: right; height: 100%; transition: all 0.5s ease; transform-origin: top; z-index: 0; }
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 878px;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+}
 
-@media only screen and (min-width: 0px) { .tabs { width: 100%; margin-top: 8px; } }
+.icon {
+  height: 37px;
+  margin-left: 10px;
+  padding-top: 7px;
+}
 
-@media only screen and (min-width: 450px) { .tabs { width: auto; margin-top: 0px; } }
+.logo {
+  height: 27px;
+  top: 11px;
+  position: absolute;
+  color: pink;
+}
 
-.tabs ul { list-style-type: none; margin: 0; display: table; height: 100%; width: 100%; }
+.bar {
+  position: fixed;
+  width: 100%;
+  height: 53px;
+  background-color: #0e141a;
+  opacity: 0.95;
+  z-index: 5;
+  border-top: 3px solid #034877;
+  transition: all 0.5s ease;
+}
 
-@media only screen and (min-width: 0px) { .tabs ul { padding: 3px 15px; background-color: #034877; } }
+.hamburger-icon-container {
+  vertical-align: middle;
+  position: absolute;
+  padding-top: 11px;
+  right: 0;
+}
 
-@media only screen and (min-width: 450px) { .tabs ul { padding-top: 0px; background-color: transparent; } }
+.burger {
+  height: 25px;
+  fill: #007ab0;
+  padding-right: 20px;
+  pointer-events: fill;
+}
+@media only screen and (min-width : 450px) {
+  .burger {
+    visibility: hidden;
+  }
+}
 
-.tabs li { transition: all 0.5s ease; font-family: "Axia"; }
+a.svg:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  width: 35px;
+  height: 35px;
+}
+@media only screen and (min-width : 450px) {
+  a.svg:after {
+    pointer-events: none;
+  }
+}
 
-@media only screen and (min-width: 0px) { .tabs li { display: block; padding: 14px; } }
-
-@media only screen and (min-width: 450px) { .tabs li { text-align: left; display: table-cell; text-align: center; vertical-align: middle; } }
-
-.tabs li a { color: #007ab0; text-decoration: none; padding-right: 25px; font-size: 14px; transition: 0.3s; }
-
-.tabs li a:hover { color: #fcd461; }
-
-@media only screen and (min-width: 0px) { .tabs-hidden { transform: scaleY(0); } }
-
-@media only screen and (min-width: 450px) { .tabs-hidden { transform: scaleY(1); transition: all 0s ease; } }
-
-@media only screen and (min-width: 0px) { .li-hidden { opacity: 0; } }
-
-@media only screen and (min-width: 450px) { .li-hidden { opacity: 1; } }
-
-.content { margin-left: auto; margin-right: auto; max-width: 878px; height: 100%; vertical-align: middle; position: relative; }
-
-.icon { height: 37px; margin-left: 10px; padding-top: 7px; }
-
-.logo { height: 27px; top: 11px; position: absolute; color: pink; }
-
-.bar { position: fixed; width: 100%; height: 53px; background-color: #0e141a; opacity: 0.95; z-index: 5; border-top: 3px solid #034877; transition: all 0.5s ease; }
-
-.hamburger-icon-container { vertical-align: middle; position: absolute; padding-top: 11px; right: 0; }
-
-.burger { height: 25px; fill: #007ab0; padding-right: 20px; pointer-events: fill; }
-
-@media only screen and (min-width: 450px) { .burger { visibility: hidden; } }
-
-a.svg:after { content: ""; position: absolute; right: 10px; width: 35px; height: 35px; }
-
-@media only screen and (min-width: 450px) { a.svg:after { pointer-events: none; } }
-
-@media only screen and (min-width: 0px) { .bottom-border { border-bottom: 1px solid #007ab0; } }
-
-@media only screen and (min-width: 450px) { .bottom-border { border: none; } }
+@media only screen and (min-width : 0px) {
+  .bottom-border {
+    border-bottom: 1px solid #007ab0;
+  }
+}
+@media only screen and (min-width : 450px) {
+  .bottom-border {
+    border: none;
+  }
+}
 
 /*# sourceMappingURL=navbar.css.map */
