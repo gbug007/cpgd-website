@@ -7,7 +7,7 @@ discord: Wheee
 img-path: contact-photo.jpg
 ---
 
-Need to get into contact with us? Send us an email at [officers@cpgd.org][email] or contact one of our [officers][officers] directly.
+Need to get into contact with us? Send us an email at [cpgd@calpoly.org][email] or contact one of our [officers][officers] directly.
 
 Join our [discord server][discord-link] to be part of the Cal Poly game dev community!
 

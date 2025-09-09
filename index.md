@@ -16,7 +16,7 @@ about2-img-path: aboutImg2.jpg
 
 #About section description
 ---
-CPGD doesn't require any kind of official sign-up to join! Simply attend the meetings and events to participate in club activities. Due to current club guidelines all meetings will be run through our [discord server][discord-link] at 6:30 PM every Wednesday and we will also run a dedicated time for development every Saturday. 
+CPGD doesn't require any kind of official sign-up to join! Simply attend the meetings and events to participate in club activities and we may also run a dedicated time for development every Saturday. 
 
 
 

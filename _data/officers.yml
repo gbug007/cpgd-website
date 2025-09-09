@@ -1,39 +1,36 @@
 
-- name: President
-  img-path: example.jpg
+- name: Jacob
+  img-path: jacob.png
   title: President
-  description: President Description
-  email: officers@cpgd.org
+  description: Hi! My name is Jacob, and I'm currently in my 5th year at Cal Poly, going for my masters degree in Computer Science! I'm very interested in all of the crazy techniques games use that let them work the way they do (or sometimes not work, which is cool as well). My favorite game is Hollow Knight and I will be locking myself in my room for a week straight when Silksong releases.
+  email: cpgd@calpoly.edu
 
-- name: Vice President
-  img-path: example.jpg
-  title: Vice President 
-  description: Vice President Description
-  email: officers@cpgd.org
+- name: Adam
+  img-path: adam.jpg
+  title: Vice President
+  description: Hey! My name is Adam, and I'm currently in my 4th and final year at Cal Poly, studying Computer Science. I have a passion for game development along with playing guitar and fencing. My favorite games are Elden Ring and KCD2.
+  email: cpgd@calpoly.edu
 
-
-- name: Secretary
-  img-path: example.jpg
+- name: Lucas
+  img-path: lucas.jpg
   title: Secretary
-  description: Secretary Description
-  email: officers@cpgd.org
+  description: What’s up I’m Lucas ‼️ Game development is one of my favorite hobbies along with basketball, golf, pickleball, and exploring music. Some of my favorite games include Pokemon ORAS, SSBU, Inscryption, and Dave the Diver.
+  email: cpgd@calpoly.edu
 
-
-
-- name: Web Master
-  img-path: example.png
-  title: Web Master
-  description: Web Master Description
-  email: officers@cpgd.org
-
-- name: Treasurer
-  img-path: example.png
+- name: John
+  img-path: john.jpg
   title: Teasurer
-  description: Treasurer Description
-  email: officers@cpgd.org
+  description: My name is John Freeman, and I’m from New Haven, Connecticut. As a Sophomore Computer Science major that hopes to work in the professional games industry someday, I plan to concentrate in Game Development next year. I was first introduced to Game Development in the second grade, and since then I’ve made games with everything from Game Engines to Arduinos to paper and pencil.
+  email: cpgd@calpoly.edu
 
-- name: General Officer
-  img-path: example.jpg
+- name: Grady
+  img-path: grady.JPEG
   title: General Officer
-  description: General Officer Description
-  email: officers@calpoly.edu
+  description: I'm Grady Schneider, a computer engineering major. I've participated in several game jams here at Cal Poly, and I've hosted many of them too. Fun fact about me: I play the guitar in my freetime and build Gundam model kits.
+  email: cpgd@calpoly.edu
+
+- name: Kylie
+  img-path: kylie.jpg
+  title: General Officer
+  description: My name is Kylie Wu, I’m a second year mechanical engineer. I have experience in 3D modeling and drawing. I don’t know that much about making games, but I play a lot of games!
+  email: cpgd@calpoly.edu

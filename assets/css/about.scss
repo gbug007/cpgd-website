@@ -18,21 +18,22 @@
          width: 100%;
          padding: 20px 0px;
       }
-      width: 350px;
+      width: 400px;
+      height: 350px;
       padding: 9px;
-      paddng-bottom: 20px;
+      padding-bottom: 20px;
    }
 
    .about-img-left {
-      float:left;
+      float: left;
    }
 
    .about-img-right {
-      float:right;
+      float: right;
    }
 
    .about-description {
-      float:right;
+      float: right;
       width: 45%;
       @media #{$about-size} {
          float: none;
@@ -70,5 +71,11 @@
 
    a:hover {
       color: $green;
+   }
+
+   ::after {
+      content: "";
+      display: table;
+      clear: both;
    }
 }
