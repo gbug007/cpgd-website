@@ -35,9 +35,10 @@ html {
   margin: 0 auto;
 }
 .about-section .about-img {
-  width: 350px;
+  width: 400px;
+  height: 350px;
   padding: 9px;
-  paddng-bottom: 20px;
+  padding-bottom: 20px;
 }
 @media only screen and (max-width : 875px) {
   .about-section .about-img {
@@ -86,6 +87,12 @@ html {
 }
 .about-section a:hover {
   color: #00af9e;
+}
+
+.about-section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*# sourceMappingURL=about.css.map */

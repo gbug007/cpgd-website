@@ -127,6 +127,7 @@ html {
 .officers-container .officers .officer-icon {
   border-radius: 50%;
   width: 100%;
+  height: 300px;
   border: 20px;
 }
 
