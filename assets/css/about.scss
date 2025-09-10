@@ -24,6 +24,16 @@
       padding-bottom: 20px;
    }
 
+   .about-img-contact {
+      @media #{$about-size} {
+         width: 100%;
+         padding: 20px 0px;
+      }
+      width: 350px;
+      padding: 9px;
+      padding-bottom: 20px;
+   }
+
    .about-img-left {
       float: left;
    }
