@@ -22,7 +22,7 @@ CPGD doesn't require any kind of official sign-up to join! Simply attend the mee
 
 
 
-To keep up to date with club information, you can [sign up for our newsletter][sign-up] that goes out every Monday with the sign-up box below.
+To keep up to date with club information, you can sign up for our newsletter that goes out every Monday with the sign-up box below.
 
 
 [discord-link]: https://discord.gg/A9dB8Gq
