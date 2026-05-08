@@ -87,8 +87,7 @@ html {
 .about-section a:hover {
   color: #00af9e;
 }
-
-.about-section::after {
+.about-section ::after {
   content: "";
   display: table;
   clear: both;

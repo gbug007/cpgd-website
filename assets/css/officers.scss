@@ -112,10 +112,10 @@
          text-align: center;
       }
       .officer-icon {
-         border-radius: 50%;
-         width: 100%;
-         border: 20px;
-         height: 300px;
+         border-radius: 0;
+         width: 175px;
+         height: 175px;
+         object-fit: cover;
       }
    }
 }
