@@ -1,36 +1,36 @@
 
-- name: Jacob
-  img-path: jacob.png
-  title: President
-  description: "Hi! My name is Jacob, and I'm currently in my 5th year at Cal Poly, going for my masters degree in Computer Science! I'm very interested in all of the crazy techniques games use that let them work the way they do (or sometimes not work, which is cool as well). My favorite game is Hollow Knight and I will be locking myself in my room for a week straight when Silksong releases."
-  email: cpgd@calpoly.edu
-
-- name: Adam
-  img-path: adam.jpg
-  title: Vice President
-  description: "Hey! My name is Adam, and I'm currently in my 4th and final year at Cal Poly, studying Computer Science. I have a passion for game development along with playing guitar and fencing. My favorite games are Elden Ring and KCD2."
-  email: cpgd@calpoly.edu
+- name: John
+  img-path: john2.jpg
+  title: Co-President
+  description: "My name is John Freeman, and I'm from New Haven, Connecticut. As a third year Computer Science major that hopes to work in the professional games industry someday, I plan to concentrate in Game Development next year. I was first introduced to Game Development in the second grade, and since then I've made games with everything from Game Engines to Arduinos to paper and pencil."
+  email: "Discord: thecode327"
 
 - name: Lucas
   img-path: lucas.jpg
-  title: Secretary
-  description: "What’s up I’m Lucas ‼️ Game development is one of my favorite hobbies along with basketball, golf, pickleball, and exploring music. Some of my favorite games include Pokemon ORAS, SSBU, Inscryption, and Dave the Diver."
-  email: cpgd@calpoly.edu
+  title: Co-President
+  description: "What's up I'm Lucas ‼️ Game development is one of my favorite hobbies along with basketball, pickleball, and producing music. Some of my favorite games include Pokemon ORAS, SSBU, Inscryption, and Dave the Diver."
+  email: "Discord: brodando"
 
-- name: John
-  img-path: john.jpg
+- name: Jonathan
+  img-path: jonathan.jpg
   title: Treasurer
-  description: "My name is John Freeman, and I’m from New Haven, Connecticut. As a Sophomore Computer Science major that hopes to work in the professional games industry someday, I plan to concentrate in Game Development next year. I was first introduced to Game Development in the second grade, and since then I’ve made games with everything from Game Engines to Arduinos to paper and pencil."
-  email: cpgd@calpoly.edu
+  description: "Hello! My name is Jonathan, and I'm a third year Computer Science major, minoring in Japanese language. I like listening to music, reading books, playing games with friends, and programming random hobby projects. My programming interests are Computational Linguistics, Computer Graphics and Game Programming."
+  email: "Discord: treewontwotofor"
 
-- name: Grady
-  img-path: grady.JPEG
-  title: General Officer
-  description: "I'm Grady Schneider, a computer engineering major. I've participated in several game jams here at Cal Poly, and I've hosted many of them too. Fun fact about me: I play the guitar in my freetime and build Gundam model kits."
-  email: cpgd@calpoly.edu
+- name: Sean
+  img-path: sean.jpg
+  title: Secretary
+  description: "My name is Sean, and I'm a second year Software Engineering major! I love playing and coding games, 3D printing, and animating films. My favorite games are Minecraft, Undertale, and Zenless Zone Zero!"
+  email: "Discord: seann.o"
 
-- name: Kylie
-  img-path: kylie.jpg
+- name: Jacob
+  img-path: jacob.png
   title: General Officer
-  description: "My name is Kylie Wu, I’m a second year mechanical engineer. I have experience in 3D modeling and drawing. I don’t know that much about making games, but I play a lot of games!"
-  email: cpgd@calpoly.edu
+  description: "Hi! My name is Jacob, and I'm currently in my 5th year at Cal Poly, going for my masters degree in Computer Science! I'm very interested in all of the crazy techniques games use that let them work the way they do (or sometimes not work, which is cool as well). My favorite games are Hollow Knight and Silksong"
+  email: "Discord: emuman"
+
+- name: Aaron
+  img-path: aaron.jpg
+  title: General Officer
+  description: "Hey, the names Aaron A. Mendez, and I'm a second year Computer Engineering major. While I look more towards the creative aspects of games, I'm trying to learn the programming behind them. Spare time is spent reading, writing, and studying game narrative. Favorites games range from Expedition 33 to Bioshock to Control/Alan Wake. Perhaps the biggest Remedy fan (besides Rose)."
+  email: "Discord: orathemus"
